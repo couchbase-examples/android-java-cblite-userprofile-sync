@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.appcenter:espresso-test-extension:1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e75b975b2e4feb0a23c952b418a32ecf/transformed/jetified-espresso-test-extension-1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e75b975b2e4feb0a23c952b418a32ecf/transformed/jetified-espresso-test-extension-1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e75b975b2e4feb0a23c952b418a32ecf/transformed/jetified-espresso-test-extension-1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/espresso-test-extension/1.5/477f8c47e73faa0b7524d256b4bfeaf577c12e7/espresso-test-extension-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.appcenter/espresso-test-extension/1.5/a2c2e0253f90c1cefd03d7040cb16c1dcc317f30/espresso-test-extension-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

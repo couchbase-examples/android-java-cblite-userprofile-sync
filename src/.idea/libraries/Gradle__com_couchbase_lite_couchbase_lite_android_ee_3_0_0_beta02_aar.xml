@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.couchbase.lite:couchbase-lite-android-ee:3.0.0-beta02@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/291b3137870899b244109f9cbb17e942/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/291b3137870899b244109f9cbb17e942/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/291b3137870899b244109f9cbb17e942/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e067ddfe13bb7576fd7ea29adabcb4f0/transformed/jetified-couchbase-lite-android-ee-3.0.0-beta02/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e067ddfe13bb7576fd7ea29adabcb4f0/transformed/jetified-couchbase-lite-android-ee-3.0.0-beta02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e067ddfe13bb7576fd7ea29adabcb4f0/transformed/jetified-couchbase-lite-android-ee-3.0.0-beta02/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-android-ee/3.0.0-beta02/6c6167aff0b3a8ed5863cc27a6c9d8e23daa9125/couchbase-lite-android-ee-3.0.0-beta02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-android-ee/3.0.0-beta02/961951b856901259581ce5814ec9ef2ecc7b8946/couchbase-lite-android-ee-3.0.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
