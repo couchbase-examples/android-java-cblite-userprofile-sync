@@ -91,3 +91,5 @@ node_modules
 
 # windows stuff
 
+src/.gradle
+src/.idea

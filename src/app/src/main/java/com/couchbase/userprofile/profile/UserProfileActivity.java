@@ -65,12 +65,13 @@ public class UserProfileActivity
                         {
                             if (data != null) {
                                 Uri selectedImage = data.getData();
-
-                                try {
-                                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
-                                    imageView.setImageBitmap(bitmap);
-                                } catch (IOException ex) {
-                                    Log.i("SelectPhoto", ex.getMessage());
+                                if (selectedImage != null) {
+                                    try {
+                                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
+                                        imageView.setImageBitmap(bitmap);
+                                    } catch (IOException ex) {
+                                        Log.i("SelectPhoto", ex.getMessage());
+                                    }
                                 }
                             }
                         }
@@ -161,27 +162,6 @@ public class UserProfileActivity
         }
         return imageBytes;
     }
-
-    /*
-    private boolean checkPermissions(String permission) {
-        // Function to check and request permission
-        int requestCode = 0;
-        boolean result = false;
-        // Checking if permission is not granted
-        if (ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_DENIED) {
-            ActivityCompat.requestPermissions(this, new String[]{permission}, requestCode);
-            if (requestCode == PERMISSION_GRANTED) {
-                result = true;
-            }
-        }
-        else {
-            Toast.makeText(this, "Permission already granted", Toast.LENGTH_SHORT).show();
-            result = true;
-        }
-        return result;
-    }
-    */
-
 
     @Override
     public void showProfile(Map<String, Object> profile) {

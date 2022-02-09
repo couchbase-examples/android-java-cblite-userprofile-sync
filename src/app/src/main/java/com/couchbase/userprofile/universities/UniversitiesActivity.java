@@ -17,7 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class UniversitiesActivity extends AppCompatActivity implements UniversitiesContract.View {
+public class UniversitiesActivity
+        extends AppCompatActivity
+        implements UniversitiesContract.View {
+
+    static final int PICK_UNIVERSITY = 2;
 
     private UniversitiesContract.UserActionsListener mActionListener;
 
@@ -68,7 +72,7 @@ public class UniversitiesActivity extends AppCompatActivity implements Universit
                 String selectedUniversity = universities.get(position).get("name").toString();
                 Intent returnIntent = new Intent();
                 returnIntent.putExtra("result", selectedUniversity);
-                setResult(RESULT_OK, returnIntent);
+                setResult(PICK_UNIVERSITY, returnIntent);
                 finish();
             }
         });

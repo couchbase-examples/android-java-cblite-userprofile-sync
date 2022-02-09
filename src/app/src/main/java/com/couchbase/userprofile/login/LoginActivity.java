@@ -29,12 +29,15 @@ public class LoginActivity extends AppCompatActivity {
     public void onLoginTapped(View view) {
         if (usernameInput.length() > 0 && passwordInput.length() > 0) {
             DatabaseManager dbMgr = DatabaseManager.getSharedInstance();
+            String username = usernameInput.getText().toString();
+            String password = passwordInput.getText().toString();
             Context context = getApplicationContext();
 
             dbMgr.initCouchbaseLite(context);
             dbMgr.openPrebuiltDatabase(context);
+            dbMgr.openOrCreateDatabaseForUser(context, username);
 
-            dbMgr.openOrCreateDatabaseForUser(context, usernameInput.getText().toString());
+            DatabaseManager.startPushAndPullReplicationForCurrentUser(username, password);
 
             Intent intent = new Intent(getApplicationContext(), UserProfileActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
