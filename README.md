@@ -1,4 +1,4 @@
-[![Build App](https://github.com/couchbase-examples/android-java-cblite-userprofile-sync/actions/workflows/build-workflow.yml/badge.svg)](https://github.com/couchbase-examples/android-java-cblite-userprofile-sync/actions/workflows/build-workflow.yml)
+
 
 # Quickstart in Couchbase Lite Data Sync with Android and Java
 #### Build an Android App in Java with Couchbase Lite 
