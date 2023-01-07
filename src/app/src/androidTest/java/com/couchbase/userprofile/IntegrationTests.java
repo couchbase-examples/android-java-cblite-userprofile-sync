@@ -13,7 +13,6 @@ import androidx.test.core.app.ApplicationProvider;
 
 import com.couchbase.lite.Array;
 import com.couchbase.lite.Blob;
-import com.couchbase.lite.CouchbaseLite;
 import com.couchbase.lite.CouchbaseLiteException;
 import com.couchbase.lite.DataSource;
 import com.couchbase.lite.Database;
@@ -31,10 +30,8 @@ import com.couchbase.userprofile.util.DatabaseManager;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 @RunWith(AndroidJUnit4.class)
