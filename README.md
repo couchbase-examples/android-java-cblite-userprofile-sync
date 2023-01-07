@@ -20,10 +20,10 @@ Full documentation can be found on the [Couchbase Developer Portal](https://deve
 ## Prerequisites
 To run this prebuilt project, you will need:
 
-- [Android Studio Arctic Fox or above](https://developer.android.com/studio)
-- Android device or emulator running API level 22 or above 
-- Android SDK installed and setup (> v.31.0.0)
-- Android Build Tools (> v.31.0.0)
+- [Android Studio Chimpmuck or above](https://developer.android.com/studio)
+- Android device or emulator running API level 23 or above 
+- Android SDK installed and setup (> v.32.0.0)
+- Android Build Tools (> v.32.0.0)
 - JDK 8 (now embedded into Android Studio 4+)
 
 ## App Architecture
@@ -32,7 +32,7 @@ The sample app follows the [MVP pattern](https://en.wikipedia.org/wiki/Model%E2%
 
 ## Try it out
 
-* Open src/build.gradle using Android Studio.
+* **Open src/build.gradle using Android Studio.**
 * Build and run the project.
 * Verify that you see the login screen.
 
