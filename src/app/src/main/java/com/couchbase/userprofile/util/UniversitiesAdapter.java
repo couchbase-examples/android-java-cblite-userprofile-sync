@@ -45,14 +45,18 @@ public class UniversitiesAdapter extends RecyclerView.Adapter<UniversitiesAdapte
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
-        holder.title.setText(mUniversities.get(position).get("name").toString());
-        holder.subtitle.setText(mUniversities.get(position).get("country").toString());
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        int adapterPosition = holder.getAdapterPosition();
+        holder.title.setText(mUniversities.get(adapterPosition).get("name").toString());
+        holder.subtitle.setText(mUniversities.get(adapterPosition).get("country").toString());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            mOnItemListener.OnClick(view, position);
+                int clickPosition = holder.getAdapterPosition();
+                if (clickPosition != RecyclerView.NO_POSITION) {
+                    mOnItemListener.OnClick(view, clickPosition);
+                }
             }
         });
     }
